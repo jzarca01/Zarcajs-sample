@@ -1,0 +1,33 @@
+{
+  "name": "zarcajs-sample",
+  "version": "1.0.0",
+  "description": "Sample app using Zarca.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open --mode development --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzarca01/Zarcajs-sample.git"
+  },
+  "author": "Jeremie Zarca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzarca01/Zarcajs-sample/issues"
+  },
+  "homepage": "https://github.com/jzarca01/Zarcajs-sample#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.6.0",
+    "webpack-dev-server": "^3.1.3",
+    "zarcajs": "https://github.com/jzarca01/Zarca.js"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.2"
+  }
+}
